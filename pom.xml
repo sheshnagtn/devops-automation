@@ -45,7 +45,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<executions>
-					<execution>
+						<execution>
 						<goals>
 							<goal>build-info</goal>
 						</goals>
@@ -57,7 +57,7 @@
 				<artifactId>git-commit-id-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>kubernetes</finalName>
+		<finalName>devops-integration</finalName>
 	</build>
 
 </project>
